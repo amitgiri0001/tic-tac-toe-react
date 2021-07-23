@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  table {
+    border-collapse: collapse;
+  } 
+
+  td {
+    padding: 10px;
+    border: 3px #888 solid;
+    text-align: center;
+    font-size: 28px;
+    width: 20%;
+    font-family: Consolas, monospace
+  }
+
+  #cell0 {
+    border-style: none solid solid none;
+    height: 100px;
+    width: 100px;
+  }
+
+  #cell1 {
+    border-style: none solid solid solid;
+    height: 100px;
+    width: 100px;
+  }
+
+  #cell2 {
+    border-style: none none solid solid;
+    height: 100px;
+    width: 100px;
+  }
+
+  #cell3 {
+    border-style: solid solid solid none;
+    height: 100px;
+    width: 100px;
+  }
+
+  #cell4 {
+    border-style: solid solid solid solid;
+    height: 100px;
+    width: 100px;
+  }
+
+  #cell5 {
+    border-style: solid none solid solid;
+    height: 100px;
+    width: 100px;
+  }
+
+  #cell6 {
+    border-style: solid solid none none;
+    height: 100px;
+    width: 100px;
+  }
+
+  #cell7 {
+    border-style: solid solid none solid;
+    height: 100px;
+    width: 100px;
+  }
+
+  #cell8 {
+    border-style: solid none none solid;
+    height: 100px;
+    width: 100px;
+  }
+
+  /* winning cells style */
+  .winningCell {
+    background-color: #f88;
+  }
