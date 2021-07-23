@@ -25,58 +25,86 @@ body {
     border-style: none solid solid none;
     height: 100px;
     width: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:  'Press Start 2P', cursive;
   }
 
   #cell1 {
     border-style: none solid solid solid;
     height: 100px;
     width: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:  'Press Start 2P', cursive;
   }
 
   #cell2 {
     border-style: none none solid solid;
     height: 100px;
     width: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:  'Press Start 2P', cursive;
   }
 
   #cell3 {
     border-style: solid solid solid none;
     height: 100px;
     width: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:  'Press Start 2P', cursive;
   }
 
   #cell4 {
     border-style: solid solid solid solid;
     height: 100px;
     width: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:  'Press Start 2P', cursive;
   }
 
   #cell5 {
     border-style: solid none solid solid;
     height: 100px;
     width: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:  'Press Start 2P', cursive;
   }
 
   #cell6 {
     border-style: solid solid none none;
     height: 100px;
     width: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:  'Press Start 2P', cursive;
   }
 
   #cell7 {
     border-style: solid solid none solid;
     height: 100px;
     width: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:  'Press Start 2P', cursive;
   }
 
   #cell8 {
     border-style: solid none none solid;
     height: 100px;
     width: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:  'Press Start 2P', cursive;
   }
 
   .winningCell {
     background-color: #f88;
+    transition: all 0.7s ease-in-out 0s;
   }
 
   .reset_button {
