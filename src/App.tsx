@@ -31,7 +31,7 @@ function App() {
 
   const handlePlay = (index: number, e: React.SyntheticEvent<EventTarget>) => {
     let currentPositions = ''
-    if(gameState[index]) return;
+    if(gameState[index] || winningState) return;
 
     if (gameState[index] === '') {
       if(xPlaying) {
@@ -99,6 +99,7 @@ function App() {
             <td id="cell8" onClick={(e) => handlePlay(8, e)} className={winningState.includes('8') ? 'winningCell' : ''}>{gameState[8]}</td>
           </tr>
         </table>
+        <input type="button" value="Reset" className={`reset_button`} onClick={resetGame}></input>
       </header>
     </div>
   );

@@ -75,7 +75,19 @@ body {
     width: 100px;
   }
 
-  /* winning cells style */
   .winningCell {
     background-color: #f88;
+  }
+
+  .reset_button {
+    margin-top: 50px;
+    color: rgb(14, 1, 1) !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #30eda5;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
   }
